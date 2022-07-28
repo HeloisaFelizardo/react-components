@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './estilo.css';
 
 export default function GamePlay() {
-  const jogador = useState("DuduXbox");
+  const [jogador] = useState("DuduXbox");
   const [ curtidas, setCurtidas ] = useState(0);
 
     function curtir () {

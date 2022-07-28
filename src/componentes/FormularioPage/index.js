@@ -1,7 +1,8 @@
 import React from 'react';
+import './estilo.css';
 
-import Formulario from './componentes/Formulario/';
-import TermosDeUso from './componentes/TermosDeUso/';
+import Formulario from '../FormularioPage/Formulario/';
+import TermosDeUso from '../FormularioPage/TermosUso/';
 
 export default function FormularioPage() {
   function aceitarTermos () {
@@ -9,7 +10,7 @@ export default function FormularioPage() {
   }
 
   return (
-    <div>      
+    <div className='conteudo-centralizado' >      
       <Formulario />
       <TermosDeUso />
       <button onClick = { aceitarTermos } >Aceitar</button>
