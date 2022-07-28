@@ -8,6 +8,10 @@ export default function AlterarTexto() {
     setNovoTexto("Hello, World!");
   }
 
+  function apagarTexto() {
+    setNovoTexto(" ");
+  }
+
   return (
     <div className="conteudo-centralizado">
       <div className="area-texto">
@@ -16,6 +20,10 @@ export default function AlterarTexto() {
       <div className="area-botao">
         <label>Click no botão abaixo para aparecer um texto:</label>
         <button onClick={alterarTexto}>Gerar texto</button>
+      </div>
+      <div className="area-botao">
+        <label>Click no botão abaixo para apagar o texto:</label>
+        <button onClick={apagarTexto}>Apagar texto</button>
       </div>
     </div>
   );

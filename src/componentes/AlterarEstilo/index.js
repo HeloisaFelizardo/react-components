@@ -13,7 +13,7 @@ export default function AlterarEstilo() {
   };
 
   return (
-    <div className="display">
+    <div className="conteudo-centralizado">
       <div className="container">
         <h2>Altere o estilo do elemento</h2>
         <div
