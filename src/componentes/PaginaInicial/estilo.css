@@ -11,7 +11,9 @@
     margin: 20px;
     width: 400px;
   }
-  
+  .conteudo-centralizado p{
+    text-align: center;
+  }
   .area-botao{
     display: flex;
     justify-content: center;

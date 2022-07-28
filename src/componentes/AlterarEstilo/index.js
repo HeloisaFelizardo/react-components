@@ -16,12 +16,9 @@ export default function AlterarEstilo() {
     <div className="conteudo-centralizado">
       <div className="container">
         <h2>Altere o estilo do elemento</h2>
-        <div
-          className={estiloAtualizado ? corDaFonteVermelho : corDaFonteAzul}></div>
+        <div className={estiloAtualizado ? corDaFonteVermelho : corDaFonteAzul}></div>
         <p>Clique no botão abaixo para alterar a cor do elemento.</p>
-        <button onClick= {alterarCor}>
-            Clique aqui
-        </button>
+        <button onClick= {alterarCor}>Clique aqui</button>
       </div>
     </div>
   );
