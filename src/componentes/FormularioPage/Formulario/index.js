@@ -17,15 +17,6 @@ export default function Formulario() {
                 <label>Telefone:</label>
                 <input placeholder="(XX) XXXXX-XXXX" type="tel" name="telefone" minLength="14" required />
 
-                <label>Melhor dia para vencimento:</label>
-                <input placeholder="Valores entre 10 e 20" type="number" name="dia_vencimento" min="10" max="20" required />
-
-                <label>Login:</label>
-                <input placeholder="Digite seu login" type="text" name="login" minLength="3" required />
-
-                <label>Senha:</label>
-                <input placeholder="Digite sua senha" type="password" name="senha" minLength="4" maxLength="8" required />
-
                 <button type="submit">Enviar Matrícula</button>
 
             </form>
