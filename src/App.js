@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-import PaginaInicial from './componentes/PaginaInicial';
-import AlterarTexto from './componentes/AlterarTexto';
-import AlterarEstilo from './componentes/AlterarEstilo';
-import BoxCurtir from './componentes/BoxCurtir';
-import GamePlay from './componentes/GamePlay';
-import FormularioPage from './componentes/FormularioPage';
+import PaginaInicial from './components/PaginaInicial';
+import AlterarTexto from './components/AlterarTexto';
+import AlterarEstilo from './components/AlterarEstilo';
+import BoxCurtir from './components/BoxCurtir';
+import GamePlay from './components/GamePlay';
+import FormularioPage from './components/FormularioPage';
+import ExibeNumero from './components/ExibeNumero';
+import PaginaDeNotificacao from './components/PaginaDeNotificacao';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <BoxCurtir />
       <GamePlay />
       <FormularioPage />
+      <ExibeNumero />
+      <PaginaDeNotificacao />
     </div>
   );
 }

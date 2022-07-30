@@ -11,6 +11,9 @@
     margin: 20px;
     width: 400px;
   }
+  .conteudo-centralizado div{
+    width: 100%;
+  }
   .conteudo-centralizado p, h1{
     text-align: center;
   }
