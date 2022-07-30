@@ -9,6 +9,7 @@ import FormularioPage from './components/FormularioPage';
 import ExibeNumero from './components/ExibeNumero';
 import PaginaDeNotificacao from './components/PaginaDeNotificacao';
 import CampoQuantidade from './components/CampoQuantidade';
+import MensagemDoDia from './components/MensagemDoDia';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <ExibeNumero />
       <PaginaDeNotificacao />
       <CampoQuantidade />
+      <MensagemDoDia />
     </div>
   );
 }
