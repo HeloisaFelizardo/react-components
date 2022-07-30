@@ -10,6 +10,7 @@ import ExibeNumero from './components/ExibeNumero';
 import PaginaDeNotificacao from './components/PaginaDeNotificacao';
 import CampoQuantidade from './components/CampoQuantidade';
 import MensagemDoDia from './components/MensagemDoDia';
+import ConteudoPostagem from './components/ConteudoPostagem';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <PaginaDeNotificacao />
       <CampoQuantidade />
       <MensagemDoDia />
+      <ConteudoPostagem />
     </div>
   );
 }
