@@ -17,7 +17,15 @@
   .conteudo-centralizado p, h1{
     text-align: center;
   }
-
+  .conteudo-centralizado .alinhar-botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .conteudo-centralizado .alinhar-botoes button{
+    margin: 20px;
+  }
   .area-botao{
     display: flex;
     justify-content: center;

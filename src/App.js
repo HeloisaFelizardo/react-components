@@ -8,6 +8,7 @@ import GamePlay from './components/GamePlay';
 import FormularioPage from './components/FormularioPage';
 import ExibeNumero from './components/ExibeNumero';
 import PaginaDeNotificacao from './components/PaginaDeNotificacao';
+import CampoQuantidade from './components/CampoQuantidade';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <FormularioPage />
       <ExibeNumero />
       <PaginaDeNotificacao />
+      <CampoQuantidade />
     </div>
   );
 }
