@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 export default function ExibindoNome() {
-  const [ nome, setNome ] = useState ("Joaquim");
+  const [ nome ] = useState ("Joaquim");
 
   return(
     <div className='conteudo-centralizado'>

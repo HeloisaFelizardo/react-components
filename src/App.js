@@ -13,6 +13,7 @@ import MensagemDoDia from './components/MensagemDoDia';
 import ConteudoPostagem from './components/ConteudoPostagem';
 import Contador from './components/Contador';
 import ExibindoNome from './components/ExibindoNome';
+import PaginaEstadio from './components/PaginaEstadio';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <ConteudoPostagem />
       <Contador />
       <ExibindoNome />
+      <PaginaEstadio />
     </div>
   );
 }
