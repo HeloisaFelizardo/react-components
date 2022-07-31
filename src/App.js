@@ -12,6 +12,7 @@ import CampoQuantidade from './components/CampoQuantidade';
 import MensagemDoDia from './components/MensagemDoDia';
 import ConteudoPostagem from './components/ConteudoPostagem';
 import Contador from './components/Contador';
+import ExibindoNome from './components/ExibindoNome';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <MensagemDoDia />
       <ConteudoPostagem />
       <Contador />
+      <ExibindoNome />
     </div>
   );
 }
