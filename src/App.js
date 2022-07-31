@@ -14,6 +14,9 @@ import ConteudoPostagem from './components/ConteudoPostagem';
 import Contador from './components/Contador';
 import ExibindoNome from './components/ExibindoNome';
 import PaginaEstadio from './components/PaginaEstadio';
+import Manchete from './components/Manchete';
+import Produto from './components/Produto';
+import DadosUsuario from './components/DadosUsuario';
 
 function App() {
   return (
@@ -32,6 +35,9 @@ function App() {
       <Contador />
       <ExibindoNome />
       <PaginaEstadio />
+      <Manchete />
+      <Produto /> 
+      <DadosUsuario />     
     </div>
   );
 }
