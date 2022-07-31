@@ -11,6 +11,7 @@ import PaginaDeNotificacao from './components/PaginaDeNotificacao';
 import CampoQuantidade from './components/CampoQuantidade';
 import MensagemDoDia from './components/MensagemDoDia';
 import ConteudoPostagem from './components/ConteudoPostagem';
+import Contador from './components/Contador';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <CampoQuantidade />
       <MensagemDoDia />
       <ConteudoPostagem />
+      <Contador />
     </div>
   );
 }
