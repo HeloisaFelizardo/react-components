@@ -17,6 +17,7 @@ import PaginaEstadio from './components/PaginaEstadio';
 import Manchete from './components/Manchete';
 import Produto from './components/Produto';
 import DadosUsuario from './components/DadosUsuario';
+import BoxFundo from './components/BoxFundo';
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       <PaginaEstadio />
       <Manchete />
       <Produto /> 
-      <DadosUsuario />     
+      <DadosUsuario />    
+      <BoxFundo /> 
     </div>
   );
 }

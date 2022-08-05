@@ -1,0 +1,11 @@
+.fundo-branco{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+.fundo-preto{
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}

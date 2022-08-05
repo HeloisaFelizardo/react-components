@@ -13,6 +13,7 @@ export default function DadosUsuario() {
     <div className='conteudo-centralizado'>
       <h3>Idade:</h3>
       <h1>{ idade }</h1>
+      <button onClick={aniversario}>Clique aqui</button>
     </div>
   );
 }
